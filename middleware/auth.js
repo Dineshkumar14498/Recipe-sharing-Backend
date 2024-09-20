@@ -1,4 +1,4 @@
-const jwt =require("jsonwebtoken")
+const jwt =require("jsonwebtoken") 
 
 const verifyToken = async (req, res, next) => {
     let token = req.headers["authorization"]
